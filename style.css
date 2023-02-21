@@ -1,0 +1,87 @@
+body{
+    background-color: #1e1d2b;
+    font-family: 'Poppins', sans-serif;
+}
+.card-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    color: #ff702a;
+}
+.btn-primary,h3{
+    color: #ff702a;
+    margin-top: 4rem;
+}
+.card-body{
+    /* background: red; */
+    padding-left: 8rem;
+    padding-top: 8rem;
+}
+.myCaja{
+    /* background: orange !important; */
+
+}
+.img-fluid{
+    width:65%;
+    margin-top: 3rem;
+}
+/*.container-fluid{
+    padding-left: 58rem;
+    font-family: 'Poppins', sans-serif;
+}*/
+.foods{
+    color: #ff702a;
+    padding-left: 4rem;
+}
+.card-text2{
+    text-align: justify;
+}
+.btn-secundary{
+    margin: 10rem;
+    margin-bottom: 12rem;
+}
+.bg-rosado{
+    background-color: #ffefe8;
+    border-radius: 15px;
+
+}
+.card-img-top{
+    width: 50%;
+    margin-left: 7rem;
+}
+.card-title3{
+    color: #ff702a;
+    font-size: 2rem;
+    text-align: center;
+    margin-right: 5rem;
+}
+.card-text3{
+    margin-right: 5rem;
+    text-align: center;
+}
+h3,h2{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.parte3{
+    text-align: center;
+    margin-left: 30rem;
+}
+.part4{
+    margin-top: 8rem;
+}
+.xd{
+width: 75%;
+margin-left: 10rem;
+background-color: #ffefe8;
+}
+.cd{
+    padding-top: 8rem;
+}
+.cd ,.cd2{
+    text-align: center;
+}
+.btn{
+    width: 50%;
+    margin-left: 17rem;
+    margin-bottom: 9rem; ;
+}
