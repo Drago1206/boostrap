@@ -10,60 +10,76 @@
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-    <div class="container row">
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <div class=" foods col-md-9 d-flex"> <h2>Foods</h2></div>
-        <div class="container-fluid ">
-          
-          <a class="navbar-brand text-white" href="#">Navbar</a>
-        
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse d-flex" id="navbarNavAltMarkup">
-            <div class="navbar-nav col-md-4">
-              <a class="nav-link text-white active d-flex" aria-current="page" href="#">Home</a>
-              <a class="nav-link text-white d-flex" href="#">Features</a>
-              <a class="nav-link text-white d-flex" href="#">Pricing</a>
-              <a class="nav-link text-white disabled d-flex" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </div>
-          </div>
-        </div>
-      </nav>
+<div class="container">
+  <div class="row">
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <div class="container-fluid">
+    <a class="navbar-brand " href="#" style="font-size: 40px;color:#ff702a">Foods</a>
+    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class='bx bx-menu'></i>
+    </button>
+    <div class="collapse navbar-collapse flex-row-reverse text-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#service">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
-        <div class="row g-0">
+  </div>
+</div>
+  </div>
+    </div>
+        <div class="container">
+        <div class=" row">
           
-          <div class="col-md-6">
-            <div class="card-body " >
+          <div class="col-md-6 d-flex">
+            <div class="card-body text-center" >
               <h5 class="card-title">Full Web Sites </h5>
               <p class="card-text text-light"> Foods the <br> Most precius thing</p>
               <button type="button" class="btn-primary" disabled data-bs-toggle="button" autocomplete="off">Today's Menu</button>
             </div>
           </div>
-          <div class=" col-md-6 d-flex justify-content-center">
-            <img src="home.png" class="img-fluid "   alt="logo">
+          <div class=" col-md-6 float-end ">
+            <img src="home.png" class="img-fluid c"   alt="logo">
           </div>
         </div>
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="about.png" class="img-fluid2 rounded-start" alt="...">
+      </div>
+
+        <div class="container row d-flex ">
+          <div class="row g-0 order-2">
+            
+              <img src="about.png" class="img-fluid rounded-start" alt="...">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8-order-1 text-center ">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">We speak the good food languaje</h5>
                 <p class="card-text2 text-white">It is a long estabished <br> fact that a be distracted by the readable content looking at its layout. the pointof</p>
 
                 <button type="button" class="btn-primary" disabled data-bs-toggle="button" autocomplete="off">Learn More</button>
               </div>
             </div>
           </div>
+        </div>
           
        
-       <div class="content">
-        <div class="row">
+       <div class="container">
+        <div class="row d-flex">
           <h3>Food Menu</h3>
           <h2 class="text-white">Fresh taste and grat price</h2>
-         <div class="col">
+         <div class="col-md-2 justify-content-center ">
           <div class="card  bg-rosado">
             <img src="food1.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -134,14 +150,16 @@
           
         </div>
        </div>
-       <div class="card xd">
+       <div class="container">
+       <div class="card row-md-2 ">
 
-        <div class="card d-flex justify-content-center ">
-          <h5 class="card-title cd ">Special title treatment</h5>
+        <div class="card d-flex xd ">
+          <h5 class="card-title text-center ">Special title treatment</h5>
           <p class="card-text cd2">With supporting text below as a natural lead-in to additional content.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
+    </div>
       <footer class="text-center text-lg-start  text-muted">
         <!-- Section: Social media -->
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"> 
